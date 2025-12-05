@@ -1,11 +1,15 @@
 {
   "name": "cyber234-backend",
   "version": "1.0.0",
-  "main": "api/server.js",
+  "type": "module",
+  "main": "api/stats.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "vercel dev"
   },
   "dependencies": {
-    "node-fetch": "^3.4.1"
+    "@upstash/redis": "^1.23.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
