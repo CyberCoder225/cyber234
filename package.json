@@ -1,3 +1,11 @@
-"dependencies": {
-  "node-fetch": "^3.4.1"
+{
+  "name": "cyber234-backend",
+  "version": "1.0.0",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.1"
+  }
 }
